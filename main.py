@@ -9,3 +9,7 @@ class Die:
     @value.setter
     def value(self,new_color):
         self._value = new_color
+
+    @value.deleter
+    def value(self):
+        del self._value
