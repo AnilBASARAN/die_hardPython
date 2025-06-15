@@ -21,7 +21,7 @@ class Player:
         self._is_computer = is_computer
 
     def roll_dice(self):
-        return self.die.roll()
+        return self._die.roll()
 
 
 my_die = Die()
